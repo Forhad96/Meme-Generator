@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Monoton&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bungee Spice', cursive;
+}
+
+.meme_generator{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+.meme_title{
+    margin: 30px 0;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.meme_generator img{
+    height: 480px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px;
+}
+
+.meme_generator .meme_btn{
+    font-size: 1rem;
+    padding: 10px 15px;
+    border-radius: 6px;
+    background-color: white;
+    border-right:18px solid darkcyan;
+    border-left:18px solid darkcyan;
+    color: darkcyan;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 400ms ease;
+}
+
+.meme_generator .meme_btn:hover{
+    padding: 10px 20px;
+    border-right:28px solid darkcyan;
+    border-left:28px solid darkcyan;
+}
+
+.meme_generator .meme_author{
+    margin: 8px;
+    font-size: 1.5rem;
+}
